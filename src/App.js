@@ -12,7 +12,7 @@ import Fireflies from './components/Fireflies'
 import bgUrl from './resources/bg.jpg'
 import starsUrl from './resources/stars.png'
 import groundUrl from './resources/ground.png'
-import bearUrl from './resources/bear.png'
+import catsAndDogsUrl from './resources/cats-dogs.png'
 import leaves1Url from './resources/leaves1.png'
 import leaves2Url from './resources/leaves2.png'
 import code from './resources/code'
@@ -38,7 +38,7 @@ function Counter() {
 function Scene({ dof }) {
   const scaleN = useAspect('cover', 1600, 1000, 0.21)
   const scaleW = useAspect('cover', 2200, 1000, 0.21)
-  const textures = useTextureLoader([bgUrl, starsUrl, groundUrl, bearUrl, leaves1Url, leaves2Url])
+  const textures = useTextureLoader([bgUrl, starsUrl, groundUrl, catsAndDogsUrl, leaves1Url, leaves2Url])
   const subject = useRef()
   const group = useRef()
   const layersRef = useRef([])
