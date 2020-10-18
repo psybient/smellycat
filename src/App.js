@@ -117,9 +117,9 @@ export default function App() {
           </div>
         </div>
 
-        <a href="https://github.com/niiima/smellycat" className="top-right" children="Github" target="_blank" rel="noopener noreferrer" />
+        <a href="https://github.com/smellycat" className="top-right" children="Github" target="_blank" rel="noopener noreferrer" />
         <div className="bottom">
-          <a href="https://github.com/niiima/smellycat" className="bottom-right" children="<Help />" target="_blank" rel="noopener noreferrer" />
+          <a href="https://github.com/smellycat" className="bottom-right" children="<Help />" target="_blank" rel="noopener noreferrer" />
           <a
             href="https://www.instagram.com/smellycat.dev/"
             className="bottom-left"
