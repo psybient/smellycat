@@ -18,7 +18,7 @@ import leaves2Url from './resources/leaves2.png'
 import code from './resources/code'
 //import HeartToggle from './components/Heart'
 import './materials/layerMaterial'
-
+//const data = fetch(``)
 const useStore = create((set) => ({
   count: 1,
   inc: () => set((state) => ({ count: state.count + 1 })),
